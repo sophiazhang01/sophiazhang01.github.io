@@ -1,0 +1,349 @@
+@font-face{
+  font-family: 'playfair-display';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf)
+}
+
+body {
+  color: #393939;
+  font-family: Lucida grande;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  margin: 10px;
+  font-family:playfair-display;
+  font-size:35px;
+}
+
+hr {
+  background-color: white;
+  height: 2px;
+  border:0;
+  margin: 50px;
+}
+
+#myname {
+  font-size: 40px;
+  color: black;
+  margin-top: 35px;
+}
+
+.row{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.top{
+  margin-bottom: 12px;
+}
+
+.first-row{
+  background-color: #cce5ff;
+}
+
+.box{
+  flex-grow:1;
+}
+
+.box2{
+  margin-left:100px;
+}
+
+.box3{
+  margin-top:80px;
+}
+
+.box4{
+  margin-right: 90px;
+}
+
+.logo{
+  font-size: 17px;
+  padding-left: 50px;
+  font-style:bold;
+  color:black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  font-size: 17px;
+}
+
+nav ul li a {
+  margin: 40px;
+  display: block;
+  text-decoration: none;
+  color:black;
+  display: block;
+  border-bottom: 2px solid;
+  border-bottom-color: white;
+  padding: .5em 1em;
+  margin: 0.5em;
+}
+
+
+a:link {
+  text-decoration:none;
+  color: black;
+}
+
+a:hover{
+  color: black;
+  border-bottom-color:black;
+  border-bottom: 2px solid;
+}
+
+a.active{
+  color:black;
+  border-bottom-color:black;
+  border-bottom: 2px solid;
+}
+
+
+p.email {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.intro {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family:playfair-display;
+  font-size: 17px;
+}
+
+h2 {
+  letter-spacing: 0.2em;
+  text-align: center;
+  color:black;
+  padding: 10px;
+  font-family:playfair-display;
+}
+
+img.profile{
+  width: auto;
+  height: auto;
+  max-width: 350px;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+}
+
+.para{
+  padding: 40px;
+  padding-top: 80px;
+  padding-right: 70px;
+  font-family:playfair-display;
+}
+
+mark{
+  background-color:#fffb96;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  background-color: #f5f9ff;
+  font-family:playfair-display;
+  padding:50px;
+}
+
+.row3{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  background-color: #f5f9ff;
+  font-family:playfair-display;
+  padding:50px;
+}
+
+img.squares{
+  width: auto;
+  height: auto;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 200px;
+  padding-top:20px;
+}
+
+img.nycsef{
+  width: auto;
+  height: auto;
+  max-width: 550px;
+  max-height: 550px;
+}
+
+img.debut{
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 400px;
+}
+
+img.weill{
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+img.CUSD{
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+img.neuroscience{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+img.ccny{
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.footer{
+  position: absolute;
+  width:100%;
+  background-color: white;
+  right:0;
+}
+
+.footer p{
+  color: #793a3a;
+}
+
+.icon{
+  max-width:25px;
+  height:auto;
+}
+
+/*classes for hiding text and showing error messages*/
+.hidden {
+  display: none !important;
+}
+
+/*form*/
+section{
+  border: 5px solid #cce5ff;
+  width: 30%;
+  margin: auto;
+  padding: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+#form div{
+  margin-bottom: 10px;
+}
+
+#form label{
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  font-family:playfair-display;
+}
+
+#form button.submit {
+  margin: auto;
+  width: 100px;
+  height: 20px;
+}
+
+#form p{
+  color:red;
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#form textarea{
+  display:inline-block;
+}
+
+
+.box button{
+  background-color:black;
+  color:white;
+  border:none;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration:none;
+  font-size: 12px;
+  font-family:playfair-display;
+  margin-top: 10px;
+}
+
+h3{
+  margin:0px;
+}
+
+/*slideshow*/
+.art{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#slideshowImage {
+  width: 300px;
+
+}
+
+.nextButton {
+  width: 60px;
+  border: 1px black solid;
+  text-align: center;
+  margin-right: 50%;
+}
+
+/*design*/
+.news{
+  height:240px;
+  max-width:auto;
+}
+
+.news1{
+  height:270px;
+}
+
+.images{
+  text-align:center;
+}

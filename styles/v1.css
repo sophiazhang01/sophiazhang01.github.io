@@ -1,0 +1,107 @@
+body {
+  background-color: #dbfcff;
+  margin: 50px;
+  font-family: trebuchet MS;
+}
+
+h1 {
+  letter-spacing: 0.5em;
+  font-family: trebuchet MS;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 0.5em;
+}
+
+h3 {
+  letter-spacing: 0.5em;
+}
+
+nav {
+  text-align: center;
+}
+
+
+img.profile{
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+
+img.plantspic{
+  width: auto;
+  height: auto;
+  max-height: 300px;
+}
+
+img.llama{
+  width: auto;
+  height: auto;
+  max-width: 300px;
+}
+
+img.nycsef{
+  width: auto;
+  height: auto;
+  max-width: 700px;
+  max-height: 700px;
+  padding-top: 10px;
+}
+
+img.cusd{
+  width: auto;
+  height: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+img.neuroscience{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+img.apples{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+img.dimsum{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+img.milkshake{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+img.yam{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+
+img.sketch{
+  width: auto;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
