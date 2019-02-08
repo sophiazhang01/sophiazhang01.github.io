@@ -14,7 +14,7 @@ h1 {
   text-align: center;
   color: black;
   margin: 10px;
-  font-family:playfair-display;
+  font-family: Lucida grande;
   font-size:35px;
 }
 
@@ -62,10 +62,9 @@ hr {
 }
 
 .logo{
-  font-size: 17px;
-  padding-left: 50px;
-  font-style:bold;
-  color:black;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 25px;
 }
 
 nav ul {
@@ -99,7 +98,7 @@ a:link {
   color: black;
 }
 
-a:hover{
+nav a:hover{
   color: black;
   border-bottom-color:black;
   border-bottom: 2px solid;
