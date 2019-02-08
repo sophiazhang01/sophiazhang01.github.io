@@ -119,16 +119,15 @@ p.email {
 .intro {
   margin-left: 120px;
   margin-right: 120px;
-  font-family:playfair-display;
+  font-family:Lucida grande;
   font-size: 17px;
 }
 
 h2 {
-  letter-spacing: 0.2em;
   text-align: center;
   color:black;
   padding: 10px;
-  font-family:playfair-display;
+  font-family:Lucida grande;
 }
 
 img.profile{
@@ -150,7 +149,7 @@ img.profile{
   padding: 40px;
   padding-top: 80px;
   padding-right: 70px;
-  font-family:playfair-display;
+  font-family:Lucida grande;
 }
 
 mark{
@@ -165,7 +164,7 @@ mark{
   margin-bottom: 30px;
   margin-top: 40px;
   background-color: #f5f9ff;
-  font-family:playfair-display;
+  font-family:Lucida grande;
   padding:50px;
 }
 
@@ -276,7 +275,7 @@ section{
   display: inline-block;
   text-align: right;
   width: 100px;
-  font-family:playfair-display;
+  font-family:Lucida grande;
 }
 
 #form button.submit {
