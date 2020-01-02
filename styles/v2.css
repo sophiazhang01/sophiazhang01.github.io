@@ -7,7 +7,8 @@
 
 body {
   color: #393939;
-  font-family: Lucida grande;
+  font-family: "Lucida grande";
+  background-color: white;
 }
 
 h1 {
@@ -62,9 +63,10 @@ hr {
 }
 
 .logo{
-    width: 100px;
-    padding-top: 10px;
-    padding-left: 25px;
+    width: 300px;
+    padding-top: 25px;
+    padding-left: 100px;
+    font-size: 20px;
 }
 
 nav ul {
@@ -335,7 +337,7 @@ h3{
 /*design*/
 .news{
   height:240px;
-  max-width:auto;
+  /*max-width:auto;*/
 }
 
 .news1{
@@ -352,4 +354,59 @@ h3{
 
 .contact{
     text-align: center;
+}
+
+/*index panel*/
+.index_panel_element:hover {
+  filter: brightness(50%);;
+  opacity:2;
+  transition: .5s ease;
+}
+
+.index_panel_element p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#index_panel{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.index_panel_element {
+  margin: 15px;
+  color: #cce5ff;
+  width: 450px;
+  height: 250px;
+  font-size: 34px;
+  text-align: center;
+  display: table;
+  font-weight: 200;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #000000;
+}
+
+.ux{
+  background: url(../images/uxprojects/cover.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.art{
+    background: url(../images/path02.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.design{
+    background: url(../images/design/flushing1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.projects{
+    background: url(../images/ccny.jpg) no-repeat center center;
+    background-size: cover;
 }
