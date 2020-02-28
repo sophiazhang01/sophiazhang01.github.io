@@ -190,7 +190,7 @@ mark{
 img.squares{
   width: auto;
   height: auto;
-  max-height: 400px;
+  max-height: 250px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 200px;
@@ -366,6 +366,6 @@ h1{
 }
 /*ux*/
 .box5{
-    height:250px;
+    height:600px;
     text-align:center;
 }
