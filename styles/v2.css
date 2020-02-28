@@ -364,3 +364,8 @@ h1{
     background: url(../images/ccny.jpg) no-repeat center center;
     background-size: cover;
 }
+/*ux*/
+.box5{
+    height: 250px;
+    text-align: center;
+}
